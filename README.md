@@ -15,14 +15,21 @@ If first time running script:
   `$ chmod +x DNAnexus_Mass_Downloader.sh (gives script run permissions)`
  
 Log Into DNAnexus
-  `$ module add dx-toolkit/dx-toolkit*
+
+  `$ module add dx-toolkit/dx-toolkit`
+  
 or
+
   `$ source /srv/gsfs0/software/dx-toolkit/0.234.1/environment (if dx-toolkit link is broken)`
  
   `$ dx login`
+  
   `$ username/password`
+  
   `$ 0 (selects the first project simply for logging in purposes)`
  
 Run Download
+
   `$ cd /local/path/dir (move to desired directory where all the files will be downloaded)`
+  
   `$ ./DNAnexus_Mass_Downloader.sh Test Test2 (downloads projects “Test” and “Test2”)`

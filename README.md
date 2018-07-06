@@ -24,9 +24,10 @@ or
   $ dx login
   $ username/password
   $ 0 (selects the first project simply for logging in purposes)
+  ```
  
 Run Download
 
-  `$ cd /local/path/dir (move to desired directory where all the files will be downloaded)`
-  
-  `$ ./DNAnexus_Mass_Downloader.sh Test Test2 (downloads projects “Test” and “Test2”)`
+  ```$ cd /local/path/dir (move to desired directory where all the files will be downloaded) 
+  $ ./DNAnexus_Mass_Downloader.sh Test Test2 (downloads projects “Test” and “Test2”)
+ ```

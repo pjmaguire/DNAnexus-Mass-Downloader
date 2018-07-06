@@ -23,7 +23,7 @@ or
   ```$ source /srv/gsfs0/software/dx-toolkit/0.234.1/environment (if dx-toolkit link is broken)
   $ dx login
   $ username/password
-  $ 0 (selects the first project simply for logging in purposes)```
+  $ 0 (selects the first project simply for logging in purposes)
  
 Run Download
 

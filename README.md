@@ -16,6 +16,7 @@ If first time running script:
  
 Log Into DNAnexus
 
+  `$ module add legacy`
   `$ module add dx-toolkit/dx-toolkit`
   
 or

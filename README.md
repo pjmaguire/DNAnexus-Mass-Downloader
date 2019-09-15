@@ -16,9 +16,10 @@ If first time running the script:
  
 Log Into DNAnexus
 
-  `$ module add legacy`
-  
-  `$ module add dx-toolkit/dx-toolkit`
+  ```
+  $ module add legacy
+  $ module add dx-toolkit/dx-toolkit
+  ```
 
   ```$ source /srv/gsfs0/software/dx-toolkit/0.234.1/environment (if dx-toolkit link is broken)
   $ dx login
@@ -32,13 +33,15 @@ Run Download
   $ ./DNAnexus_Mass_Downloader.sh Test Test2 (downloads projects “Test” and “Test2”)
  ```
 
+
 Subsequent Runs After Initial Setup: 
 
 Load DNAnexus Module
 
-  `$ module add legacy`
-  
-  `$ module add dx-toolkit/dx-toolkit`
+  ```
+  $ module add legacy
+  $ module add dx-toolkit/dx-toolkit
+  ```
   
 Run Download
 

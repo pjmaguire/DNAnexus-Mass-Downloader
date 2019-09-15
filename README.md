@@ -10,7 +10,7 @@ You give it the names of all the projects you would like to download, and it ste
 **Example:**
 I would like to download projects "Test" and "Test2" to "/local/path/dir".
  
-If first time running script:
+If first time running the script:
 
   `$ chmod +x DNAnexus_Mass_Downloader.sh (gives script run permissions)`
  
@@ -19,8 +19,6 @@ Log Into DNAnexus
   `$ module add legacy`
   
   `$ module add dx-toolkit/dx-toolkit`
-  
-or
 
   ```$ source /srv/gsfs0/software/dx-toolkit/0.234.1/environment (if dx-toolkit link is broken)
   $ dx login
@@ -28,6 +26,20 @@ or
   $ 0 (selects the first project simply for logging in purposes)
   ```
  
+Run Download
+
+  ```$ cd /local/path/dir (move to desired directory where all the files will be downloaded) 
+  $ ./DNAnexus_Mass_Downloader.sh Test Test2 (downloads projects “Test” and “Test2”)
+ ```
+
+Subsequent Runs After Initial Setup: 
+
+Load DNAnexus Module
+
+  `$ module add legacy`
+  
+  `$ module add dx-toolkit/dx-toolkit`
+  
 Run Download
 
   ```$ cd /local/path/dir (move to desired directory where all the files will be downloaded) 

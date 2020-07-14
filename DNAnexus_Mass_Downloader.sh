@@ -11,7 +11,7 @@ for project in $projects; do
 	cd $project
 	dx select $project
 
-	dx download -r "/"
+	dx download -rf "/"
 	cd ..
 done
 
